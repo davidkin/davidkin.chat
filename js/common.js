@@ -46,7 +46,7 @@ class Frame {
 
     const postMessageToAll = (message, targetOrigin) => {
       const iFrames = $('.iframe');
-      console.log(iFrames);
+      // console.log(iFrames);
 
       for (let i = 0; i < iFrames.length; i++) {
         iFrames[i].contentWindow.postMessage(message, targetOrigin);
