@@ -36,7 +36,7 @@ class Frame {
             <input type='submit' class='form__button' value='Send'>
           </form>
 
-          <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="js/jquery-3.3.1.js"></script>
           <script src="js/iframe-Work.js"></script>
         </body>
         </html>`;
